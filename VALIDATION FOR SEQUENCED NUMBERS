@@ -1,5 +1,0 @@
-num = input("Enter 3 digit number: ")
-if num in "0123456789" or num in "9876543210":
-    print("valid")
-else:
-    print("invalid")
