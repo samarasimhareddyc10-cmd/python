@@ -1,8 +1,0 @@
-a=int(input("enter any number:"))
-b=int(input("enter any number:"))
-while(b!=0):
-    rem=a%b
-    temp=b
-    b=rem
-    a=temp
-print(a)
