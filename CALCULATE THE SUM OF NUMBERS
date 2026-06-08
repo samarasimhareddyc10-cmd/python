@@ -1,0 +1,6 @@
+a=100
+sum=0
+while(a!=0):
+    a=int(input("enter the number:"))
+    sum=sum+a
+print("sum ",sum)
