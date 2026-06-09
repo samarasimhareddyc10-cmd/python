@@ -1,0 +1,11 @@
+name=input("enter name:")
+a=int(input("enter age:"))
+g=input("enter M or F:")
+if(a<=18 and a>=60):
+    print("not eligible")
+elif(g=='M' and a>=30):
+    print("not eligible")
+elif(g=='F'):
+    print("Eligible")
+elif(g=='M' and a<30):
+    print("not eligible")
