@@ -1,0 +1,12 @@
+up=0
+low=0
+while(True):
+    char=input("enter a character:")
+    if char in"!,@,#,$,%,^,&,*,(,),_,+,a,e,i,o,u,A,E,I,O,U":
+        break
+    if char.isupper():
+        up+= 1
+    if char.islower():
+        low+= 1
+print("total number of uppercase:",up)
+print("total number of lowercase:",low)
