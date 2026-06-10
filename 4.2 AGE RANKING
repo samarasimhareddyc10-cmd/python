@@ -1,0 +1,6 @@
+n=["abcd","efgh","ijkl","mnop","qrst"]
+a=[37,38,21,23,25]
+res=list(zip(a,n))
+res1=sorted(res,reverse=True)
+for i in range(5):
+    print("rank{}:{}-{} yrs old".format(i+1,res1[i][1],res1[i][0]))
