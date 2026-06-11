@@ -1,0 +1,5 @@
+names=["Bobby","Cheeku","Sandy","Jesse","Walter","Mike"]
+marks=[[56,67,75],[34,45,34],[35,80,75],[60,55,76],[23,78,75],[67,20,99]]
+for i in range(6):
+    avg=sum(marks[i])//3
+    print("{}:{} has scored :{}%".format(i+1,names[i],avg))
